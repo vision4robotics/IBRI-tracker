@@ -25,16 +25,17 @@ Email: changhong.fu@tongji.edu.cn
 
 Junjie Ye
 
-Email: ye.jun,jie@tongji.edu.cn
+Email: ye.jun.jie@tongji.edu.cn
 
 # Demonstration running instructions
 
 Running demonstration of this tracker is very easy so long as you have MATLAB. Just download the package, extract it and follow two steps:
 1. Config seq name in `configSeqs_demo_for_IBRI.m`,
-2. Run `IBRI_Demo_single_seq.m`,
-and the IBRI Demo should be running.
 
->This code is compatible with UAV123 benchmark. Therefore, if you want to run it in benchmark, just put ARCF folder in `trackers`, and config sequences and trackers according to instructions from UAV123. This should also do it.
+2. Run `IBRI_Demo_single_seq.m`,
+  and the IBRI Demo should be running.
+
+  
 
 # Results on UAV datasets
 
