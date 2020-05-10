@@ -40,15 +40,15 @@ Email: ye.jun.jie@tongji.edu.cn
 
 ### UAVDT
 
-![](./IBRI_v2/results/UAVDT.png)
+![](./results/UAVDT.png)
 
 ### UAV123@10fps
 
-![](./IBRI_v2/results/UAV123@10fps.png)
+![](./results/UAV123@10fps.png)
 
 ### VisDrone2018-SOT
 
-![](./IBRI_v2/results/VisDrone2018.png)
+![](./results/VisDrone2018.png)
 
 
 
