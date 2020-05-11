@@ -48,7 +48,7 @@ Email: ye.jun.jie@tongji.edu.cn
 
 ### VisDrone2018-SOT
 
-![VisDrone2018-SOT](.\IBRI_v2\results\VisDrone2018.png)
+![](.\IBRI_v2\results\VisDrone2018.png)
 
 
 
