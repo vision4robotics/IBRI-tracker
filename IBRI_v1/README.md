@@ -21,7 +21,7 @@ Exploiting Interval-Based Response Inconsistency for Correlation Filters in Real
 # Contact 
 Changhong Fu
 
-Email: changhong.fu@tongji.edu.cn
+Email: changhongfu@tongji.edu.cn
 
 Junjie Ye
 
@@ -33,7 +33,7 @@ Running demonstration of this tracker is very easy so long as you have MATLAB. J
 1. Config seq name in `configSeqs_demo_for_IBRI.m`,
 
 2. Run `IBRI_Demo_single_seq.m`,
-  and the IBRI Demo should be running.
+    and the IBRI Demo should be running.
 
   
 

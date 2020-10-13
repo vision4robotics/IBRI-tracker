@@ -21,7 +21,7 @@ Disruptor-Aware Interval-Based Response Inconsistency for Correlation Filters in
 # Contact 
 Changhong Fu
 
-Email: changhong.fu@tongji.edu.cn
+Email: changhongfu@tongji.edu.cn
 
 Junjie Ye
 
