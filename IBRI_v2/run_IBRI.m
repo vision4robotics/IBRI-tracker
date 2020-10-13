@@ -73,11 +73,8 @@ for m = 1:params.F
     params.admm_gamma(m) = gamma^m;
 end
 params.mu = 0.844;
-<<<<<<< HEAD
+
 params.admm_lambda =  9.1;%Regularization parameter
-=======
-params.admm_lambda =  9.19;%Regularization parameter
->>>>>>> 762cc8f7f016bab5b9708d663ce8a23341a852bb
 
 params.admm_iterations = 5;%Number of ADMM iterations
 % Visualization

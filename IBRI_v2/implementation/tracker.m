@@ -116,11 +116,7 @@ filter_sz_cell = permute(mat2cell(filter_sz, ones(1,num_feature_blocks), 2), [2 
 filter_sz_cell_ours{1} = filter_sz_cell{1}; 
 
 % initialize previous response map
-<<<<<<< HEAD
 for i = 1:params.F
-=======
-for i = 1:seq.F
->>>>>>> 762cc8f7f016bab5b9708d663ce8a23341a852bb
     M_prev{i} = zeros(filter_sz_cell{1});
 end
 
@@ -320,11 +316,7 @@ while true
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
             [id_ymax_curr, id_xmax_curr] = find(M_curr == max_M_curr);
             % do shifting of previous response map 1
-<<<<<<< HEAD
             for i = 1:params.F
-=======
-            for i = 1:seq.F
->>>>>>> 762cc8f7f016bab5b9708d663ce8a23341a852bb
                 shift_y = id_ymax_curr - id_ymax_prev{i};
                 shift_x = id_xmax_curr - id_xmax_prev{i};
                 sz_shift_y = size(shift_y);
@@ -373,11 +365,7 @@ while true
             
             S_xx = sum(conj(model_xf) .* model_xf, 3);
             M_train = q_finit;
-<<<<<<< HEAD
             for m = 1:params.F
-=======
-            for m = 1:seq.F
->>>>>>> 762cc8f7f016bab5b9708d663ce8a23341a852bb
                 M_train = M_train + (admm_gamma(m)) * bsxfun(@times, M_prev{m}, model_xf);
             end
             M_train_Sxx = bsxfun(@times, M_train, S_xx);
@@ -430,22 +418,14 @@ while true
             M_prev{1} = fftshift(response);
             max_M_prev{1} = max(M_prev{1}(:));
             [id_ymax_prev{1},id_xmax_prev{1}]= find(M_prev{1} == max_M_prev{1});
-<<<<<<< HEAD
             for m = 2:params.F
-=======
-            for m = 2:seq.F
->>>>>>> 762cc8f7f016bab5b9708d663ce8a23341a852bb
 %                 M_prev{m} = M_prev{m-1};
                 id_ymax_prev{m} = id_ymax_prev{m-1};
                 id_xmax_prev{m} = id_xmax_prev{m-1};
             end
 
     else
-<<<<<<< HEAD
             for m = params.F : -1 :2
-=======
-            for m = seq.F : -1 :2
->>>>>>> 762cc8f7f016bab5b9708d663ce8a23341a852bb
                 M_prev{m} = M_prev{m-1};
                 
                 id_ymax_prev{m} = id_ymax_prev{m-1};
