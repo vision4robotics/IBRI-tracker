@@ -34,7 +34,7 @@ Email: ye.jun.jie@tongji.edu.cn
 >1. Config seq name in `configSeqs_demo_for_IBRI.m`,
 >
 >2. Run `IBRI_Demo_single_seq.m`,
->   and the IBRI Demo should be running.
+>     and the IBRI Demo should be running.
 
 # Results on UAV datasets
 
@@ -48,7 +48,7 @@ Email: ye.jun.jie@tongji.edu.cn
 
 ### VisDrone2018-SOT
 
-![VisDrone2018](.\IBRI_v2\results\VisDrone2018.png)
+![VisDrone2018](https://github.com/vision4robotics/IBRI-tracker/blob/master/IBRI_v2/results\VisDrone2018.png)
 
 
 
