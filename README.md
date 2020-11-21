@@ -12,11 +12,25 @@ Matlab implementation of our Disruptor-Aware Interval-Based Response Inconsisten
 
 # Publication and citation
 
-IBRI tracker is proposed in our paper for IEEE TGRS 2020. Detailed explanation of our method can be found in the paper:
+IBRI tracker is proposed in our paper accepted by IEEE TGRS 2020. Detailed explanation of our method can be found in the paper:
 
 Changhong Fu, Junjie Ye, Juntao Xu,  Yujie He and Fuling Lin
 
 Disruptor-Aware Interval-Based Response Inconsistency for Correlation Filters in Real-Time Aerial Tracking
+
+IEEE Transactions on Geoscience and Remote Sensing, 2020
+
+Please cite the aforementioned publication if you find this code useful in your research, please consider citing:
+>@ARTICLE{Fu_2020_TGRS,
+	author={C. {Fu} and J. {Ye} and J. {Xu} and Y. {He} and F. {Lin}},
+	journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+	title={{Disruptor-Aware Interval-Based Response Inconsistency for Correlation Filters in Real-Time Aerial Tracking}}, 
+	year={2020},
+	volume={},
+	number={},
+	pages={1-13},
+}
+
 
 # Contact 
 Changhong Fu
@@ -48,7 +62,7 @@ Email: ye.jun.jie@tongji.edu.cn
 
 ### VisDrone2018-SOT
 
-![VisDrone2018](.\IBRI_v2\results\VisDrone2018.png)
+![VisDrone2018](https://github.com/vision4robotics/IBRI-tracker/blob/master/IBRI_v2/results/VisDrone2018.png)
 
 
 
